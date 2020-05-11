@@ -28,7 +28,7 @@ class CategoryController extends Controller
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
             'pagination' => [
-                'pageSize' => 10,
+                'pageSize' => 15,
             ],
         ]);
 
